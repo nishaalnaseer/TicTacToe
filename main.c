@@ -86,7 +86,7 @@ int isItInArray(char ch, char *arr) {
 
     for (int i = 0; i < 9; i++) {
         var = arr[i] ;
-        printf("%i: %i\n", i, var);
+        // printf("%i: %i\n", i, var);
         if (var == ch) {
             isElementPresent = 1;
             break;
